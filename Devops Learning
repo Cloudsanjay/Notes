@@ -1,0 +1,11 @@
+SKill required to add in CV
+- *Linux & Scripting* (*Bash, PowerShell*)  
+- *Cloud* (*Azure, *Optional: AWS, GCP)  
+- *Infrastructure as Code* (*Terraform, Bicep, ARM Templates*)  
+- *CI/CD Pipelines* (*Azure DevOps, GitHub Actions*)  
+- *Infra Automation & Security* (*tfsec, TruffleHog, Aqua, Black Duck, Sonar, Checkov*)  
+- *Containers & Orchestration* (*Docker, AKS, Helm, ArgoCD*)  
+- *Monitoring & Observability* (*Prometheus, Grafana*)  
+- *App Deployment, Backup & DR*  
+- *Security & Governance*  
+- *Monolithic vs Microservices Architecture*
