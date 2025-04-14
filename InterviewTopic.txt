@@ -1,18 +1,18 @@
 Topics which is required to cover before interview
 
 For Less than 8 Yr Exp Candidate
-Azure Landing Zone
-Azure Virtual Network
-Azure Subnet
-Azure NSG
-Azure ASG
-Azure Bastain
-Azure Key Vault
-Azure Load Balancer
-Azure Application Gateway
-Azure Front Door
-Traffic Manager
-Azure VM
+Azure Virtual Network----Oves
+Azure Subnet-------------Oves
+Azure NSG----------------Sanjay
+Azure ASG----------------Sanjay
+Azure VM-----------------Neha
+Azure Load Balancer------Avinash
+Azure Application Gateway---Rajan
+Azure Front Door----------Rajat
+Azure Key Vault-----------Sonaal
+Traffic Manager-----------Abhishek
+Azure Bastain------------
+Azure Landing Zone-------
 VNEET Peering
 Monitoring Tool-Prometheus, Grafana, Grafana Loki
 
