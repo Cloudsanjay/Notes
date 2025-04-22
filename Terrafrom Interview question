@@ -1,1 +1,39 @@
+Here’s a list of **most commonly asked Terraform intrview questions 
+### *Basic-Level Questions:*
+1. *What is Terraform?*
+2. *What are the key features of Terraform?*
+3. *Explain the difference between Terraform and other IaC tools like Ansible or CloudFormation.*
+4. *What are providers in Terraform?*
+5. *What is a Terraform module?*
+6. *What is the purpose of terraform init, plan, apply, and destroy commands?*
+7. *What is a Terraform state file (terraform.tfstate)? Why is it important?*
 
+---
+
+### *Intermediate-Level Questions:*
+1. *How do you manage sensitive data in Terraform?*
+2. *What is remote state and how is it managed in Terraform?*
+3. *Explain how Terraform handles dependencies between resources.*
+4. *What is the use of terraform import?*
+5. *How can you manage multiple environments (like dev, staging, prod) in Terraform?*
+6. *What are data sources in Terraform?*
+7. *What is the difference between count, for_each, and dynamic blocks?*
+
+---
+
+### *Advanced-Level Questions:*
+1. *How do you handle state locking in Terraform?*
+2. *What is the purpose of backends in Terraform?*
+3. *Explain Terraform Workspaces and their use cases.*
+4. *How do you use Terraform with CI/CD pipelines?*
+5. *What are some best practices when writing Terraform code?*
+6. *Have you used Terraform Cloud or Terraform Enterprise? What are the differences?*
+7. *How do you refactor large Terraform projects using modules?*
+
+---
+
+### *Scenario-Based Questions:*
+1. *What would you do if two developers try to apply Terraform at the same time?*
+2. *How would you roll back a failed Terraform deployment?*
+3. *You modified a resource manually in the cloud – what happens when you run Terraform again?*
+4. *How would you migrate existing infrastructure to Terraform?*
