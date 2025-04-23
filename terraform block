@@ -1,0 +1,72 @@
+variable ke andar kuch bhi define nahi kiya aur variable ko rg me call kiya tou---CLI se rg name enter karna hoga
+# resource "azurerm_resource_group" "example" {
+# name = var.variable_rg1
+# location = "West Europe"
+# }
+
+# variable "variable_rg1" {
+#         }
+
+variable ke andar default argument diya aur variable ko rg me call kiya tou---default value to uta lega
+resource "azurerm_resource_group" "example1" {
+name = var.variable_rg1
+location = "West Europe"
+}
+
+variable "variable_rg1" {
+    default = "ranga"
+        }
+
+variable ke andar default argument diya aur variable ko rg me call kiya tou + terraform.tfvars ke ander variable ki value pass ki---terraform.tfvars variable ki value ko uta lega
+
+resource "azurerm_resource_group" "example2" {
+name = var.variable_rg1
+location = "West Europe"
+}
+
+variable "variable_rg1" {
+    default = "ranga"
+        }
+terraform.tfvars:::::variable_rg1= "panga"
+
+variable ke andar default argument diya aur variable ko rg me call kiya tou + terraform.tfvars ke ander variable ki value pass ki + san.auto.tfvars ke ander variable ki value pass ki ---san.auto.tfvars variable ki value ko uta lega
+
+resource "azurerm_resource_group" "example2" {
+name = var.variable_rg1
+location = "West Europe"
+}
+
+variable "variable_rg1" {
+    default = "ranga"
+        }
+terraform.tfvars:::::variable_rg1= "panga"
+san.auto.tfvars::::::variable_rg1= "changa"
+
+variable ke andar default argument diya aur variable ko rg me call kiya tou + terraform.tfvars ke ander variable ki value pass ki + san.auto.tfvars ke ander variable ki value pass ki + zain.auto.tfvars ke ander variable ki value pass ki---zain.auto.tfvars variable ki value ko uta lega
+
+resource "azurerm_resource_group" "example2" {
+name = var.variable_rg1
+location = "West Europe"
+}
+
+variable "variable_rg1" {
+    default = "ranga"
+        }
+terraform.tfvars:::::variable_rg1= "panga"
+san.auto.tfvars::::::variable_rg1= "changa"
+zain.auto.tfvars::::::variable_rg1= "zainji"
+
+variable ke andar default argument diya aur variable ko rg me call kiya tou + terraform.tfvars ke ander variable ki value pass ki + san.auto.tfvars ke ander variable ki value pass ki + zain.auto.tfvars ke ander variable ki value pass ki + sanjay.tfvars ke ander variable ki value pass ki--- terraform plan -var-file="sanjay.tfvars" command chalane se sanjay.tfvars ki value ko Utah lega
+
+resource "azurerm_resource_group" "example2" {
+name = var.variable_rg1
+location = "West Europe"
+}
+
+variable "variable_rg1" {
+    default = "ranga"
+        }
+terraform.tfvars:::::variable_rg1= "panga"
+san.auto.tfvars::::::variable_rg1= "changa"
+zain.auto.tfvars::::::variable_rg1= "zainji"
+sanjay.tfvars:::::::::variable_rg1= "sukhbeer"
