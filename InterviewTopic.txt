@@ -6,15 +6,16 @@ Azure Subnet-------------Oves
 Azure NSG----------------Sanjay
 Azure ASG----------------Sanjay
 Azure VM-----------------Neha
-Azure Load Balancer------Avinash
-Azure Application Gateway---Rajan
-Azure Front Door----------Rajat
-Azure Key Vault-----------Sonaal
+Azure Load Balancer------Avinash Layer4
+Azure Application Gateway---Rajan Layer7
+Azure Front Door----------Rajat Layer7
 Traffic Manager-----------Abhishek
-Azure Bastain------------Mukesh
+Azure Key Vault-----------Sonaal
+CIDR Range---Sanjay
+Azure Bastain------------Mukesh/Sanjay
+VNEET Peering------------Smriti
+Monitoring Tool-Prometheus, Grafana, Grafana Loki ---Neha
 Azure Landing Zone-------
-VNEET Peering
-Monitoring Tool-Prometheus, Grafana, Grafana Loki
 
 More than 8 Yr Experience
 Above one
