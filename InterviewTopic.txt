@@ -10,8 +10,8 @@ Azure Load Balancer------Avinash Layer4
 Azure Application Gateway---Rajan Layer7
 Azure Front Door----------Rajat Layer7
 Traffic Manager-----------Abhishek
+CIDR Range----------------Sanjay
 Azure Key Vault-----------Sonaal
-CIDR Range---Sanjay
 Azure Bastain------------Mukesh/Sanjay
 VNEET Peering------------Smriti
 Monitoring Tool-Prometheus, Grafana, Grafana Loki ---Neha
